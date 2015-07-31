@@ -1,5 +1,14 @@
 PODS:
-  - GoogleCastPodFail (0.1.0)
+  - google-cast-sdk (2.7.1):
+    - google-cast-sdk/Assets (= 2.7.1)
+    - google-cast-sdk/Core (= 2.7.1)
+  - google-cast-sdk/Assets (2.7.1):
+    - google-cast-sdk/Core
+  - google-cast-sdk/Core (2.7.1)
+  - Google-Mobile-Ads-SDK (7.4.0)
+  - GoogleCastPodFail (0.1.0):
+    - google-cast-sdk
+    - Google-Mobile-Ads-SDK
 
 DEPENDENCIES:
   - GoogleCastPodFail (from `../`)
@@ -9,6 +18,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GoogleCastPodFail: 2782f5e16b22df91ba59043b3a4c827928faf7cc
+  google-cast-sdk: 9c98a8fbe8277277ab01a3318ee965c9aef3d4c9
+  Google-Mobile-Ads-SDK: ff8ce0c4b495c60113a6f37916956aab9504d527
+  GoogleCastPodFail: 915564ca35c7a8e352855b79ddd3bc8f0de4f933
 
 COCOAPODS: 0.38.2

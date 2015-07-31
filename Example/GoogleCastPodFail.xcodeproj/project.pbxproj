@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31B70FB3693017032EAD279F /* libPods-GoogleCastPodFail_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 802526D28432C753559FF186 /* libPods-GoogleCastPodFail_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9DE07FB271F0F312A5B3C664 /* Pods_GoogleCastPodFail_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C0689E1A63E8B47FE79918 /* Pods_GoogleCastPodFail_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		E308B59DD4780A08ABA2C229 /* Pods_GoogleCastPodFail_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E0CE985C4564BEA7EC29A3 /* Pods_GoogleCastPodFail_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E3C43148D34FB4E77BA38E7B /* libPods-GoogleCastPodFail_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA71A45232A8D5385F4EEA7 /* libPods-GoogleCastPodFail_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FA71A45232A8D5385F4EEA7 /* libPods-GoogleCastPodFail_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleCastPodFail_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* GoogleCastPodFail_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCastPodFail_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,9 +56,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68C0689E1A63E8B47FE79918 /* Pods_GoogleCastPodFail_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleCastPodFail_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		802526D28432C753559FF186 /* libPods-GoogleCastPodFail_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleCastPodFail_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		97E0CE985C4564BEA7EC29A3 /* Pods_GoogleCastPodFail_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleCastPodFail_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22C885EC7D938167273CED2 /* Pods-GoogleCastPodFail_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleCastPodFail_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleCastPodFail_Example/Pods-GoogleCastPodFail_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A667F12006F241F03D0024EA /* Pods-GoogleCastPodFail_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleCastPodFail_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleCastPodFail_Tests/Pods-GoogleCastPodFail_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C68DE466826F5DBA5AA00101 /* Pods-GoogleCastPodFail_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleCastPodFail_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleCastPodFail_Example/Pods-GoogleCastPodFail_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E308B59DD4780A08ABA2C229 /* Pods_GoogleCastPodFail_Example.framework in Frameworks */,
+				31B70FB3693017032EAD279F /* libPods-GoogleCastPodFail_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9DE07FB271F0F312A5B3C664 /* Pods_GoogleCastPodFail_Tests.framework in Frameworks */,
+				E3C43148D34FB4E77BA38E7B /* libPods-GoogleCastPodFail_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				97E0CE985C4564BEA7EC29A3 /* Pods_GoogleCastPodFail_Example.framework */,
-				68C0689E1A63E8B47FE79918 /* Pods_GoogleCastPodFail_Tests.framework */,
+				802526D28432C753559FF186 /* libPods-GoogleCastPodFail_Example.a */,
+				2FA71A45232A8D5385F4EEA7 /* libPods-GoogleCastPodFail_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,7 +204,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5D2BCAED753C75188539746D /* Embed Pods Frameworks */,
 				4711896BB14CECB78F0C1C9A /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -224,7 +223,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				CC4A97EAC3A3E044275C5F4A /* Embed Pods Frameworks */,
 				516D35BD7C7F5387B3075DC4 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -321,36 +319,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleCastPodFail_Tests/Pods-GoogleCastPodFail_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D2BCAED753C75188539746D /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleCastPodFail_Example/Pods-GoogleCastPodFail_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CC4A97EAC3A3E044275C5F4A /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleCastPodFail_Tests/Pods-GoogleCastPodFail_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E486A76705488A21B3642895 /* Check Pods Manifest.lock */ = {
