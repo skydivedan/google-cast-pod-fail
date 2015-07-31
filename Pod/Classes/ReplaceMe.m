@@ -4,6 +4,5 @@
 
 // uncomment either line below to see compile errors.
 
-//#import <google-cast-sdk/GoogleCast.h> compile error, can't find framework path.
-
-//#import "GoogleCast.h" // this doesn't work either, b/c this file has framework paths in it.
+// #import <GoogleCast/GoogleCast.h> - same import as seen in the Example's app-delegate, but can't be used internally.
+// #import "GoogleCast.h" // this doesn't work either, b/c this file has framework paths in it.
