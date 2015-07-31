@@ -8,6 +8,10 @@
 
 #import "GFAppDelegate.h"
 
+// framework paths work great from the sample app.
+#import <GoogleCast/GoogleCast.h>
+#import <GoogleMobileAds/GoogleMobileAds.h>
+
 @implementation GFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

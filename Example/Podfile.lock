@@ -1,0 +1,14 @@
+PODS:
+  - GoogleCastPodFail (0.1.0)
+
+DEPENDENCIES:
+  - GoogleCastPodFail (from `../`)
+
+EXTERNAL SOURCES:
+  GoogleCastPodFail:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GoogleCastPodFail: 2782f5e16b22df91ba59043b3a4c827928faf7cc
+
+COCOAPODS: 0.38.2
