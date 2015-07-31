@@ -1,11 +1,8 @@
 # GoogleCastPodFail
 
-[![CI Status](http://img.shields.io/travis/Dan Morrow/GoogleCastPodFail.svg?style=flat)](https://travis-ci.org/Dan Morrow/GoogleCastPodFail)
-[![Version](https://img.shields.io/cocoapods/v/GoogleCastPodFail.svg?style=flat)](http://cocoapods.org/pods/GoogleCastPodFail)
-[![License](https://img.shields.io/cocoapods/l/GoogleCastPodFail.svg?style=flat)](http://cocoapods.org/pods/GoogleCastPodFail)
-[![Platform](https://img.shields.io/cocoapods/p/GoogleCastPodFail.svg?style=flat)](http://cocoapods.org/pods/GoogleCastPodFail)
-
 ## Usage
+
+The purpose of this project is to demonstrate that it is difficult to use google-cast-sdk within another pod library, because Framework headers aren't available. The workaround is to use quoted headers, and to use each one individually.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
